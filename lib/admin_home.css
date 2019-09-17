@@ -1,0 +1,145 @@
+#h1{
+    background-color: greenyellow;
+    text-align: center;
+    width: 700px;
+    height: 60px;
+    margin-left: 300px;
+    border-radius: 10px 10px 10px 10px;
+}
+body{
+    background-color: lightgray;
+}
+
+.links{
+    background-color: lightslategray;
+    margin-left: 400px;
+    margin-top: 200px;
+    width: 500px;
+    text-align: center;
+    height: 170px;
+    padding: 12px 32px;
+    border-radius: 10px 10px 10px 10px;
+}
+.button {
+  background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black
+}
+#foot{
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  color:black;
+  text-align: center;
+  margin-top: 230px;
+}
+.butt{
+     background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black;
+}
+.sdel{
+      background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black;
+}
+.sedit{
+      background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black
+}
+.sadd{
+      background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black
+}
+.badd{
+      background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black
+}
+.bedit{
+      background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black
+}
+.bdel{
+      background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black
+}
+#nav{
+    margin-left: 1100px;
+}

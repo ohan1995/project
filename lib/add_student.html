@@ -1,0 +1,59 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="add_student.css">
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+        <script type="text/javascript" src="add_student.js"> </script>
+    </head>
+    
+    <body>
+        <h1>Add Student</h1>
+        <div id="nav" >
+        <button onclick="history.go(-1)" class="butt"><b>Back</b></button>
+        <a href="login.html" class="butt"><b>Signout</b></a>
+    </div>
+        <center><span class="required">*</span><font color="green">Required field</font></center><br><br>
+        
+        <form name="myform" onsubmit="return validate()" action="success_student.html">
+        
+
+        <label for="text" class="l"><b>Student ID</b><span class="required">*</span><br>
+            <input type="text" placeholder="Enter Student ID" name="sid" class="in"  id="required"><br><br>
+
+        <label for="text" class="l"><b>Student Name</b><span class="required">*</span><br>
+            <input type="text" class="in" placeholder="Enter Student Name" name="sname"><br>
+
+            <label for"text" class="l"><b>Gender</b><span class="required">*</span><br>
+            <input type="radio" value="m" name="gender">Male
+            <input type="radio" value="in" name="gender">Female
+            
+            <br><br>
+
+            <label for"text" class="l"><b>DOB</b><br>
+            <input type="date" class="in"><br>
+
+            <label for"text" class="l"><b>Email<span class="required">*</span></b><br>
+            <input type="email" class="in" placeholder="Enter Email" name="email"><br>
+
+              <label for"text" class="l"><b>Mobile<span class="required">*</span></b><br>  
+            <input type="text" class="in" placeholder="Enter Mobile Number" name="mob"><br>
+            
+            <label for"text" class="l"><b>Skills</b><br>
+            <select multiple="true" class="in">
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value=".Net">.Net</option>
+            </select><br>
+
+         <label for="text" class="l"><b>Address</b><span class="required">*</span><br>
+            <textarea class="in" placeholder="Enter Address" name="add"></textarea><br><br>
+
+          <input type="submit" value="Add Student" class="button">
+        </form>
+        <div id="foot">&copy; 2019 Library Managment</div>
+    </body>
+    </body>
+</html>

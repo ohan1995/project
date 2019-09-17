@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="add_book.css">
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  
+        <script type="text/javascript" src="add_book.js"></script>
+    </head>
+    <body>
+        <h1>Add Books</h1>
+        <div id="nav" >
+        <button onclick="history.go(-1)" class="butt"><b>Back</b></button>
+        <a href="login.html" class="butt"><b>Signout</b></a>
+    </div>
+        <form name="myform" action="Success.html" onsubmit="return validate()"><br><br>
+        
+        <span class="required">*</span>Required field<br><br>
+
+        <label for="text"><b>Book ID</b><span class="required">*</span><br>
+            <input type="text" placeholder="Enter Book ID" name="bid" class="in"  id="required"><br><br>
+
+        <label for="text"><b>Book Name</b><span class="required">*</span><br>
+            <input type="text" class="in" placeholder="Enter Book Name" name="bname"><br><br>
+
+            <label for="text"><b>Select Category</b><br>
+            <select class="in">
+                <option></option>
+                <option value="Science">Science</option>
+                <option value="cs">Compyter Science</option>
+                <option value="mec">Mechenical</option>
+                <option value="civil">Civil</option>
+            </select><br><br>
+
+        <label for="text"><b>Book Author</b><br>
+            <input type="text" class="in" placeholder="Enter Book Author" name="auth"><br><br>
+
+         <label for="text"><b>Book Price</b><span class="required">*</span><br>
+            <input type="text" class="in" placeholder="Enter Book Price" name="bp"><br><br>
+
+         <input type="submit" value="Add Book" class="button">
+        </form>
+        <div id="foot">&copy; 2019 Library Managment</div>
+    </body>
+</html>

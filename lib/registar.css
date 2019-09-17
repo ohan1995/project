@@ -1,0 +1,77 @@
+form{
+   margin-left: 120px;
+}
+.in{
+  margin-left: 30px;
+  width: 60%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:white;
+  border-radius: 5px 5px 5px 5px;
+  
+}
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.button {
+
+  background-color: cyan;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 90px;
+  color: black;
+  font-size: 15;
+}
+body{
+    background-color: peru;
+   height: 500px;
+}
+h1{
+    background-color: greenyellow;
+    height: 50px;
+    width: 500px;
+    margin-left: 300px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+.required {
+  color: red;
+}
+.l{
+  color:white
+}
+.butt {
+  background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black
+}
+#foot{
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  color:white;
+  text-align: center;
+}

@@ -1,0 +1,62 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="registar.css">
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+        <script type="text/javascript" src="registar.js"> </script>
+    </head>
+    
+    <body>
+        <h1>Registration</h1>
+        <div id="nav" >
+        <a href="login.html" class="butt">Home</a>
+        <button onclick="history.go(-1)" class="butt">Back</button>
+    </div>
+        <center><span class="required">*<font color="green">Required field</font></span></center><br><br>
+        
+        <form name="myform" onsubmit="return validate()" action="login.html">
+        
+
+        <label for="text" class="l"><b>First Name</b><span class="required">*</span><br>
+            <input type="text" placeholder="First Name" name="fname" class="in"  id="required"><br><br>
+
+        <label for="text" class="l"><b>Middle Name</b><br>
+            <input type="text" class="in" placeholder="Enter Middle Name" name="mname"><br>
+
+            <label for="text" class="l"><b>Last Name</b><span class="required">*</span><br>
+            <input type="text" class="in" placeholder="Enter Last Name" name="lname"><br>
+
+            <label for="text" class="l"><b>UserName</b><span class="required">*</span><br>
+            <input type="text" class="in" placeholder="Enter UserName" name="uname"><br>
+
+            <label for="text" class="l"><b>Password</b><span class="required">*</span><br>
+            <input type="password" class="in" placeholder="Enter Password" name="pwd"><br>
+
+            <label for="text" class="l"><b>Password</b><span class="required">*</span><br>
+            <input type="password" class="in" placeholder="Confirm Password" name="cpwd"><br>
+
+            <label for"text" class="l"><b>Gender</b><span class="required">*</span><br>
+            <input type="radio" value="m" name="gender">Male
+            <input type="radio" value="in" name="gender">Female
+            
+            <br><br>
+
+            <label for"text" class="l"><b>DOB</b><br>
+            <input type="date" class="in"><br>
+
+            <label for"text" class="l"><b>Email<span class="required">*</span></b><br>
+            <input type="email" class="in" placeholder="Enter Email" name="email"><br>
+
+              <label for"text" class="l"><b>Mobile<span class="required">*</span></b><br>  
+            <input type="text" class="in" placeholder="Enter Mobile Number" name="mob"><br>
+
+
+          <input type="submit" value="Register" class="button">
+        </form>
+        <div id="foot">&copy; 2019 Library Managment</div>
+    </body>
+    </body>
+</html>

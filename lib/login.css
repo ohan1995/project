@@ -1,0 +1,107 @@
+form {
+text-align:center;
+margin-top:100px
+}
+h1{
+color:black;
+text-align:center;
+background-color: greenyellow;
+height: 50px;
+border-radius: 10px 10px 10px 10px;
+width: 700px;
+margin-left: 300px;
+}
+
+.in{
+width:300px;
+height:60px;
+ padding: 12px 20px;
+border-radius: 4px;
+}
+body{
+background-color: lightgray;
+opacity: 10;
+}
+#inid{
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    margin-left: 500px;
+   border-radius: 10px 10px 10px 10px;
+}
+
+#optio {
+   overflow:hidden;
+   width:150px;
+   -moz-border-radius: 9px 9px 9px 9px;
+   -webkit-border-radius: 9px 9px 9px 9px;
+   border-radius: 9px 9px 9px 9px;
+   box-shadow: 1px 1px 11px #330033;
+   background: cyan url("http://i62.tinypic.com/15xvbd5.png") no-repeat scroll 319px center;
+}
+#nav{
+    margin-left: 30;
+    margin-top: 50;
+}
+.button {
+  background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black;
+}
+#foot{
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  color:black;
+  text-align: center;
+  margin-top: 250px;
+}
+.butt{
+   background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black;
+}
+a:link{
+  background-color: yellow;
+  text-decoration: none;
+}
+a:hover{
+  color: cyan;
+  text-decoration: underline;
+  
+}
+#nav{
+    margin-left: 1100px;
+}
+.login{
+   background-color:cyan;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  color: black;
+}
